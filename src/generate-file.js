@@ -1,4 +1,4 @@
-import fs from 'fs';
+const fs = require( 'fs' );
 
 const writeFile = fileContent => new Promise( ( resolve, reject ) => {
     fs.writeFile( '../dist/team-summary.html', JSON.stringify( fileContent ), ( err ) => {
@@ -7,4 +7,4 @@ const writeFile = fileContent => new Promise( ( resolve, reject ) => {
     } )
 } );
 
-export default writeFile;
+module.exports = writeFile;
