@@ -1,10 +1,13 @@
 const fs = require( 'fs' );
 
-const writeFile = fileContent => new Promise( ( resolve, reject ) => {
-    fs.writeFile( '../dist/team-summary.html', JSON.stringify( fileContent ), ( err ) => {
-        if ( err ) throw err;
+const writeFile = fileContent => {
+    fs.writeFile( './dist/team-summary.html', fileContent, ( err ) => {
+        if ( err ) {
+            console.log( err );
+            return;
+        }
         console.log( 'Summary created! Check ./dist/team-summary.html for verification.' );
     } )
-} );
+};
 
 module.exports = writeFile;
