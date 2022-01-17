@@ -1,0 +1,28 @@
+{
+  "name": "team-summary-generator",
+  "version": "1.0.0",
+  "description": "This Node CLI creates an HTML summary page to display a project's team members and their contact information.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottrohrig/team-summary-generator.git"
+  },
+  "author": "scottrohrig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottrohrig/team-summary-generator/issues"
+  },
+  "homepage": "https://github.com/scottrohrig/team-summary-generator#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
