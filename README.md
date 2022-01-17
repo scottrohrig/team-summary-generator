@@ -6,7 +6,13 @@
 
 This Node CLI creates an HTML summary page to display a project's team members and their contact information.
 
+Demo
+
 ![demo](./assets/demo.gif)
+
+Sample Output
+
+![sample](./assets/sample.png)
 
 ## Table of Contents
 
