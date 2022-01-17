@@ -6,6 +6,8 @@
 
 This Node CLI creates an HTML summary page to display a project's team members and their contact information.
 
+![demo](./assets/demo.gif)
+
 ## Table of Contents
 
 <div style="font-weight: 100; line-height: 0.5;">
@@ -37,7 +39,7 @@ To run the app from the command line type `node index.js` then follow the prompt
 
 ## License
 
-[![CC0 License](https://img.shields.io/badge/License-CC0-orange)](https://choosealicense.com/licenses/cc0)
+[![MIT License](https://img.shields.io/badge/License-MIT-orange)](https://choosealicense.com/licenses/mit)
 
 ## Tests
 
@@ -54,3 +56,5 @@ Feel free to contact me using the information below!
 - Email: scott.rohrig@gmail.com
 
 - Project Repository/URL: [team-summary-generator](https://github.com/scottrohrig/team-summary-generator)
+
+- Live Sample Team Summary Page: [team-summary-sample](https://scottrohrig.github.io/team-summary-generator)
