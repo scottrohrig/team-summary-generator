@@ -9,5 +9,14 @@ const writeFile = fileContent => {
         console.log( 'Summary created! Check ./dist/team-summary.html for verification.' );
     } )
 };
+const copyFile = ( source, destination ) => {
+    fs.copyFile( source, destination, ( err ) => {
+        if ( err ) {
+            console.log( err );
+            return;
+        }
+        console.log( 'style.css copied successfully to ./dist/' )
+    } )
+}
 
-module.exports = writeFile;
+module.exports = {writeFile, copyFile};
